@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	position: absolute;
+}
+
+.Web1Dot{
+	left: 1375px;
+	top: 160px;
+	width:30px;
+	height:30px;
+	cursor:default;
+}
+
+.TACOCAT{
+	width:10%;
+	height:10%;
+	opacity:0.5;
+	top:477px;
+	left:-7px;
+}
+
+.Web1BG {
+	width: 1445px;
+	height: 707px;
+}
+
+.Web2BG{
+	width: 1445px;
+	height: 707px;
+}
+
+.Web2Dot{
+	left: 1279px;
+	top: 622px;
+	cursor: default;
+}
+
+.Web3BG{
+	width: 1445px;
+	height: 707px;
+}
+
+.Web3Other{
+	width: 1445px;
+	height: 707px;
+	opacity: 0;
+	transition: opacity 10s;
+}
+
+.Web3Other:hover{
+	opacity: 1;
+}
+
+.Player1{
+	position: absolute;
+	opacity: 0;
+	top: 350px;
+	left: 635px;
+	width: 100px;
+	height: 50px;
+	transition: opacity 5s;
+	cursor:default;
+}
+
+.Player1:hover{
+	opacity:0.1;
+}
+
+.Web4BG{
+	width: 1445px;
+	height: 707px;
+}
+
+.Web4Glitch{
+	opacity:0;
+	width: 1445px;
+	height: 707px;
+}
+
+.Web4Glitch:hover{
+	opacity:1;
+}
+
+.Web4Dot{
+	top:407px;
+	left:477px;
+	height: 15px;
+	width: 15px;
+	cursor:default;
+}
+
+.Player2{
+	position:absolute;
+	left: 230px;
+	top: 480px;
+	opacity:0.2;
+	width:100px;
+	height: 100px;
+}
+
+.Web5BG{
+	width: 1445px;
+	height: 707px;
+}
+
+.ClockGIF{
+	top:65px;
+	left:490px;
+	width:550px;
+height:550px;
+	
+}
+
+.beach{
+	top:65px;
+	left:360px;
+	width: 55%;
+	height: 80%;
+	opacity:0;
+	transition: opacity 30s;
+	cursor:default;
+}
+
+.beach:hover{
+	opacity:1;
+}
+
+.Web6BG{
+	opacity:0;
+	transition: opacity 30s;
+	width: 1445px;
+	height: 707px;
+}
+
+.Web6BG:hover{
+	opacity:1;
+}
+
+.Web6Dot{
+	left:875px;
+	top:500px;
+	cursor:default;
+}
+
+.Web6Ads{
+	width: 1445px;
+	height: 707px;
+}
+
+.Web7BG{
+	width: 1445px;
+	height: 707px;
+	opacity:1;
+	transition: opacity 15s;
+}
+
+.Web7BG:hover{
+	opacity:0;
+}
+
+.Web7Yes{
+	left:-325px;
+	top:75px;
+	transition: left 45s;
+	cursor:default;
+}
+
+.Web7Yes:hover{
+	left:785px;
+}
+
+.Web8Text{
+	top:384px;
+	left:534px;
+	cursor:default;
+}
+
+.Web9Escape{
+	top:280px;
+	left:688px;
+	z-index:10;
+	width:50px;
+	height:30px;
+	cursor:default;
+	opacity:0.5;
+}
+
